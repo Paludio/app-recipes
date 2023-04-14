@@ -1,1 +1,27 @@
+.container-form {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
 
+.form-login-register {
+  align-items: center;
+  border: 1px solid red;
+  border-radius: 50px;
+  display: flex;
+  height: 70vh;
+  justify-content: center;
+  width: 70vw;
+}
+
+.fields-login-register {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+  width: 75%;
+}
