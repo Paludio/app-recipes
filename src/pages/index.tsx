@@ -28,6 +28,10 @@ export default function Home(): ReactComponentElement<any> {
               Login
             </button>
           </fieldset>
+          <section className="account-management">
+            <h3 className="new-account">Create Account</h3>
+            <h3 className="new-password">Forgot Password?</h3>
+          </section>
         </form>
       </main>
     </div>
