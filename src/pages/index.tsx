@@ -1,5 +1,5 @@
 import CardLogo from "@/components/cardLogo/CardLogo";
-import Input from "@/components/Input/Input";
+import Input from "@/components/Inputs/Input";
 import { ReactComponentElement } from "react";
 
 
