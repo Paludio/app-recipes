@@ -142,3 +142,18 @@
     transform: scale(1.05);
   }
 }
+
+.disable-button {
+  align-items: center;
+  background: lightgray;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor:auto;
+  display: flex;
+  font-size: 22px;
+  font-weight: 500;
+  justify-content: center;
+  padding: 1vh 4vw;
+  position: relative;
+}
