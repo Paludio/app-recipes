@@ -2,7 +2,7 @@ import { ReactComponentElement } from "react";
 
 export default function Home(): ReactComponentElement<any> {
   return (
-    <div>
+    <div className="container-form">
       <form>
         <fieldset>
           <label htmlFor="input-email">
