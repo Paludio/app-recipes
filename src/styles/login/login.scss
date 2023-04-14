@@ -130,10 +130,15 @@
 }
 
 .new-password, .new-account {
+  color: var(--color-orange);
   text-decoration: none;
   &:hover {
-    color: var(--color-dark-orange);
+    color: var(--color-orange);
     font-weight: 600;
     cursor: pointer;
+  }
+  &:active {
+    color: var(--color-dark-orange);
+    transform: scale(1.05);
   }
 }

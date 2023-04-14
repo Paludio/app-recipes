@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { ReactComponentElement } from "react";
 
-import logoPic from '../images/logo-alt.png';
+import logoPic from '../../images/logo-alt.png';
 
 export default function CardLogo (): ReactComponentElement<any> {
   return (
