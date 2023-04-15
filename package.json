@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "react-scripts test",
+    "test-coverage": "react-scripts test --coverage --watchAll=false"
   },
   "dependencies": {
     "@types/node": "18.15.11",
